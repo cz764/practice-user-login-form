@@ -1,3 +1,26 @@
 .app {
   padding: 1rem;
 }
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.normal {
+  border: 1px solid gray;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.normalMessage {
+  color: gray;
+}
